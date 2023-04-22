@@ -7,8 +7,13 @@ while(!done){
         alert (`its => ${randomNumber}`)
     }
 }
-
 const digits = [1,2,3,4,5]
+
+let counter = 0;
+while (counter < digits.length ) {
+    console.log(digits[counter])
+    counter++
+};
 
 for (let i = 0; i < digits.length; i++){
     console.log(digits[i])
