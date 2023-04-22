@@ -26,12 +26,8 @@ let finished = false;
 while (!finished) {
     const rndNum = Math.random();
     const rndNum2 = Math.random()
-    // ran.push(rndNum);
-    // ran2.push(rndNum2)
-
-    if ((rndNum >.7 && rndNum2 > .7) || (rndNum <= .02 || rndNum2 <= .2)) {
+    if ((rndNum >.7 && rndNum2 > .7) || (rndNum <= .2 || rndNum2 <= .2)) {
         finished = true
     }
     console.log(`The 1st # is ${rndNum} and the 2nd # is ${rndNum2}.`)
-    // console.log(rndNum2)
 }
