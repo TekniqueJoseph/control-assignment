@@ -18,7 +18,7 @@ for(const nums of digits){
     console.log(nums)
 }
 
-for(let i = 4; i >= 0; i--) {
+for(let i = 4; i >= 0; i--) { //could use numbers.length-1 for initializer
     console.log(digits[i])
 }
 
