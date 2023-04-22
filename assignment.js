@@ -2,7 +2,7 @@ const randomNumber = Math.random(); // produces random number between 0 (includi
 let done = false
 while(!done){
     const randomNumber = Math.random();
-    if (randomNumber > .7) {
+    if (randomNumber > .7) { // could do this with the if statement only
         done = true
         alert (`its => ${randomNumber}`)
     }
@@ -28,10 +28,10 @@ for(let i = 4; i >= 0; i--) { //could use numbers.length-1 for initializer
 }
 
 let finished = false;
-while (!finished) {
+while (!finished) { //
     const rndNum = Math.random();
     const rndNum2 = Math.random()
-    if ((rndNum >.7 && rndNum2 > .7) || (rndNum <= .2 || rndNum2 <= .2)) {
+    if ((rndNum >.7 && rndNum2 > .7) || (rndNum <= .2 || rndNum2 <= .2)) { //could do this with the if statement only
         finished = true
     }
     console.log(`The 1st # is ${rndNum} & the 2nd # is ${rndNum2}.`)
