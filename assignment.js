@@ -29,5 +29,5 @@ while (!finished) {
     if ((rndNum >.7 && rndNum2 > .7) || (rndNum <= .2 || rndNum2 <= .2)) {
         finished = true
     }
-    console.log(`The 1st # is ${rndNum} and the 2nd # is ${rndNum2}.`)
+    console.log(`The 1st # is ${rndNum} & the 2nd # is ${rndNum2}.`)
 }
