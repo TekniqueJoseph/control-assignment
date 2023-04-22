@@ -34,5 +34,5 @@ while (!finished) { //
     if ((rndNum >.7 && rndNum2 > .7) || (rndNum <= .2 || rndNum2 <= .2)) { //could do this with the if statement only
         finished = true
     }
-    console.log(`The 1st # is ${rndNum} & the 2nd # is ${rndNum2}.`)
+    console.log(`Complete. The 1st # is ${rndNum} & the 2nd # is ${rndNum2}.`)
 }
